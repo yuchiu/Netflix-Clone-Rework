@@ -1,12 +1,8 @@
 import React from 'react'
-import {Home, About, NotFound} from './components/pages/'
+import {Home, About, NotFound} from '../components/pages/'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 class Router extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
   render() {
     return (
       <BrowserRouter>
