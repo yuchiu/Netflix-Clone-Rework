@@ -1,6 +1,6 @@
 import React from 'react'
-import {TextChanger} from '../containers/'
-import {Header, NavBar} from '../presentations/'
+import {TextChanger, NavBar} from '../containers/'
+import {Header} from '../presentations/'
 
 class Home extends React.Component {
 

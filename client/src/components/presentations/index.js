@@ -1,8 +1,7 @@
 import Header from "./Header"
-import NavBar from "./NavBar"
+import Text from "./Text"
 
 export{
     Header,
-    NavBar,
     Text
 }
