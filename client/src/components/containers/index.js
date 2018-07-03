@@ -1,7 +1,4 @@
-import TextChanger from './TextChanger'
-import NavBar from './NavBar'
+import SearchBar from "./SearchBar";
+import NavBar from "./NavBar";
 
-export {
-    TextChanger,
-    NavBar
-}
+export { SearchBar, NavBar };

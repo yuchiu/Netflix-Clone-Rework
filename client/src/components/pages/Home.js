@@ -1,17 +1,15 @@
-import React from 'react'
-import {TextChanger, NavBar} from '../containers/'
-import {Header} from '../presentations/'
+import React from "react";
+import { NavBar } from "../containers";
+import { Body } from "../presentations";
 
 class Home extends React.Component {
-
   render() {
     return (
       <div>
-        <NavBar/>
-        <Header/>
-        <TextChanger/>
+        <NavBar />
+        <Body />
       </div>
-    )
+    );
   }
 }
 

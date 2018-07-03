@@ -5,7 +5,7 @@ class NotFound extends React.Component {
   render() {
     return (
       <div>
-        <NavBar /> Not Found{" "}
+        <NavBar /> Sign In{" "}
       </div>
     );
   }

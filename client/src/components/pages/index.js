@@ -1,9 +1,5 @@
-import Home from './Home'
-import About from './About'
-import NotFound from './NotFound'
+import Home from "./Home";
+import NotFound from "./NotFound";
+import SignIn from "./SignIn";
 
-export{
-    Home,
-    About,
-    NotFound
-}
+export { Home, NotFound, SignIn };

@@ -1,7 +1,3 @@
-import Header from "./Header"
-import Text from "./Text"
+import Body from "./Body";
 
-export{
-    Header,
-    Text
-}
+export { Body };
