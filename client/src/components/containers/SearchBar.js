@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import actions from "../../actions";
 
@@ -30,6 +31,11 @@ class SearchBar extends React.Component {
     );
   }
 }
+
+SearchBar.propTypes = {
+  text: PropTypes.string,
+  fetchText: PropTypes.func
+};
 
 const stateToProps = state => ({ text: state.text.text });
 
